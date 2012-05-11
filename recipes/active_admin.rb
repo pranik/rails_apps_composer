@@ -2,6 +2,7 @@ if recipes.include? 'mongoid'
   gem 'formtastic', "~> 2.1.1"
   gem 'activeadmin_mongoid'
 else
+  gem 'formtastic', "~> 2.1.1"
   gem 'activeadmin'
 end
 gem "meta_search",    '>= 1.1.0.pre'
@@ -23,7 +24,7 @@ end
 
 __END__
 
-name: RailsAdmin
+name: ActiveAdmin
 description: "Install Active Admin to build an administration zone data in your application"
 author: systho
 
